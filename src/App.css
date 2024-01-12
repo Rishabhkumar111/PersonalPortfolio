@@ -229,3 +229,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+@media screen and (max-width: 750px) {
+  .Logo{
+    height: 20px;
+    width: auto;
+    padding-bottom: 5px;
+  }
+}
