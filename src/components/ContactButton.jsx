@@ -1,5 +1,4 @@
 import React from "react";
-import { Col } from "react-bootstrap";
 
 const ContactButton = ({ deg, text ,src}) => {
   return (
@@ -14,7 +13,7 @@ const ContactButton = ({ deg, text ,src}) => {
           <a href="#">
             <img src={src} alt="" id="connectIcon" />
           </a>
-          <span> Connect on {text}</span>
+          <span>{text}</span>
         </div>
       </button>
     </div>

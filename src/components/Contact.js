@@ -36,9 +36,9 @@ export const Contact = () => {
                   }
                 >
                     <h2>Get In Touch</h2>
-                    <ContactButton text=" LinkedIn" src={linkedIn}/>
-                    <ContactButton deg={" py-3 "} text="hello"  src={gitHub}/>
-                    <ContactButton text="hello" src={twitter}/>
+                    <ContactButton text="Connect on LinkedIn" src={linkedIn}/>
+                    <ContactButton deg={" py-3 "} text="Visit My Github"  src={gitHub}/>
+                    <ContactButton text="Connect on Twitter" src={twitter}/>
                   </div>
               )}
             </TrackVisibility>
