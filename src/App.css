@@ -478,3 +478,133 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 90%;
   }
 }
+
+
+/************ Contact Css ************/
+.contact {
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  padding: 60px 0 200px 0;
+}
+.contact #contactImg {
+  width: 92%;
+}
+.contact h2 {
+	font-size: 45px;
+	font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.contact button {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  color: #fff;
+  margin: 0 0 8px 0;
+  padding: 18px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  align-items: center;
+}
+
+.contact button span {
+  z-index: 1;
+  position: relative;
+  font-size: 1.7rem;
+}
+.contact button:hover {
+  color: rgba(0, 0, 0, 0.65);
+}
+.contact button::before {
+  content: "";
+  background: rgba(255, 255, 255, 1);
+  width: 0;
+  height: 100%;
+  position: absolute;
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+.contact button:hover::before {
+  width: 100%;
+}
+.contact #connectIcon{
+  width: 40px;
+}
+#connectCol {
+  display: flex;
+  justify-content:space-between;
+  align-items:center; 
+  text-align: center; 
+  gap: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+#contactRight{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contactButton{
+  width: 35vw;
+}
+
+#contactButton:hover img {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%) opacity(0.65);
+}
+
+@media screen and (max-width: 450px) {
+  .contact form button span {
+    font-size: 1.3rem;
+    
+  }
+  #connectCol {
+    gap: 0rem;
+  }
+  .contact #connectIcon{
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .contact button span {
+    font-size: 1.6rem;
+  }
+  #contactButton{
+    width: 40vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contact button span {
+    font-size: 1.5rem;
+  }
+  #contactButton{
+    width: 60vw;
+  }
+  .contact #connectIcon{
+    width: 35px;
+  }
+}
+@media screen and (max-width: 575px) {
+  #contactButton{
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 460px) {
+  #contactButton{
+    width: 90vw;
+  }
+  .contact #connectIcon{
+    width: 32px;
+  }
+  .contact button span {
+    font-size: 1.3rem;
+  }
+}
