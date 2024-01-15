@@ -83,7 +83,11 @@ export const NavBar = () => {
               >
                 <img src={github} alt="" />
               </a>
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/in/rishabh-kumar-2b17251a9/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={twitter} alt="" />
               </a>
             </div>

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import "animate.css";
@@ -47,7 +46,7 @@ export const Contact = () => {
                     src={gitHub}
                     url={"https://github.com/Rishabhkumar111"}
                   />
-                  <ContactButton text="Connect on Twitter" src={twitter} />
+                  <ContactButton text="Connect on Twitter" src={twitter} url={"https://www.linkedin.com/in/rishabh-kumar-2b17251a9/"}/>
                 </div>
               )}
             </TrackVisibility>

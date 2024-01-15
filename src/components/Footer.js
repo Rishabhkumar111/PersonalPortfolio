@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import { FooterQuote } from "../components/FooterQuote";
 import logo from "../assets/img/MyLogo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
@@ -31,7 +31,11 @@ export const Footer = () => {
                 >
                   <img src={github} alt="Icon" />
                 </a>
-                <a href="#">
+                <a
+                  href="https://www.linkedin.com/in/rishabh-kumar-2b17251a9/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={twitter} alt="Icon" />
                 </a>
               </div>
