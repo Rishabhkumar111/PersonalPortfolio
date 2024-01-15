@@ -11,18 +11,24 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <FooterQuote />
-          <div 
-            id="footerParent"
-          >
+          <div id="footerParent">
             <div className="hidden">
-              <img src={logo} alt="Logo" width={200} id="logo"/>
+              <img src={logo} alt="Logo" width={200} id="logo" />
             </div>
             <div id="rightFooter">
               <div className="social-icon">
-                <a href="#">
+                <a
+                  href="https://www.linkedin.com/in/rishabh-kumar-2b17251a9/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={navIcon1} alt="Icon" />
                 </a>
-                <a href="#">
+                <a
+                  href="https://github.com/Rishabhkumar111"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={github} alt="Icon" />
                 </a>
                 <a href="#">

@@ -35,11 +35,20 @@ export const Contact = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                    <h2>Get In Touch</h2>
-                    <ContactButton text="Connect on LinkedIn" src={linkedIn}/>
-                    <ContactButton deg={" py-3 "} text="Visit My Github"  src={gitHub}/>
-                    <ContactButton text="Connect on Twitter" src={twitter}/>
-                  </div>
+                  <h2>Get In Touch</h2>
+                  <ContactButton
+                    text="Connect on LinkedIn"
+                    src={linkedIn}
+                    url={"https://www.linkedin.com/in/rishabh-kumar-2b17251a9/"}
+                  />
+                  <ContactButton
+                    deg={" py-3 "}
+                    text="Visit My Github"
+                    src={gitHub}
+                    url={"https://github.com/Rishabhkumar111"}
+                  />
+                  <ContactButton text="Connect on Twitter" src={twitter} />
+                </div>
               )}
             </TrackVisibility>
           </Col>

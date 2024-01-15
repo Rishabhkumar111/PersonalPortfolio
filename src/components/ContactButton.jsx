@@ -1,21 +1,21 @@
 import React from "react";
 
-const ContactButton = ({ deg, text ,src}) => {
+const ContactButton = ({ deg, text, src, url }) => {
   return (
     <div className={`${deg}`}>
-      <button
-        type="button"
-        onClick={() => console.log("first")}
-        className="px-1"
-        id="contactButton"
-      >
-        <div id="connectCol">
-          <a href="#">
+      <a href={url} target="_blank" rel="noopener noreferrer">
+        <button
+          type="button"
+          onClick={() => console.log("first")}
+          className="px-1"
+          id="contactButton"
+        >
+          <div id="connectCol">
             <img src={src} alt="" id="connectIcon" />
-          </a>
-          <span>{text}</span>
-        </div>
-      </button>
+            <span>{text}</span>
+          </div>
+        </button>
+      </a>
     </div>
   );
 };

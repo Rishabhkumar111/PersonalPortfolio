@@ -425,6 +425,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  cursor: pointer;
 }
 .proj-imgbx::before {
   content: "";
@@ -471,6 +472,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
+}
+.proj-imgbx.mobile-hover::before {
+  height: 100%;
+}
+.proj-imgbx.mobile-hover .proj-txtx {
+  top: 50%;
+  opacity: 1;
 }
 
 @media screen and (max-width: 770px) {
@@ -700,7 +708,3 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
   text-align: center;
 }
-
-/* #footerQuote img{
-  width: 500px;
-} */

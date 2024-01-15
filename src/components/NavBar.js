@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/MyLogo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
-import github from "../assets/img//github.svg";
+import github from "../assets/img/github.svg";
 import twitter from "../assets/img/twitter.svg";
 import MyLogo from "./MyLogo";
 
@@ -32,7 +32,7 @@ export const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="/">
-          <MyLogo logo={logo}/>
+          <MyLogo logo={logo} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -69,19 +69,33 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/in/rishabh-kumar-2b17251a9/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={navIcon1} alt="" />
               </a>
-              <a href="#">
+              <a
+                href="https://github.com/Rishabhkumar111"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={github} alt="" />
               </a>
               <a href="#">
                 <img src={twitter} alt="" />
               </a>
             </div>
-            <button className="vvd">
-              <span>Let’s Connect</span>
-            </button>
+            <a
+              href="https://www.linkedin.com/in/rishabh-kumar-2b17251a9/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="vvd">
+                <span>Let’s Connect</span>
+              </button>
+            </a>
           </span>
         </Navbar.Collapse>
       </Container>
